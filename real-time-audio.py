@@ -33,8 +33,7 @@ while True:
 	frame = cv2.flip(frame,1)
 	frames.append(frame)
 
-	if frame_count == 300:
-		break
+	
 	if ret:
 		key = cv2.waitKey(1)
 		if frame_count % 60 == 0:
